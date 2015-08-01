@@ -28,10 +28,26 @@ div {
 .top-navigation {
     background-color: #fff;
 }
-.top-navigation > .content {
-    width: 970px;
-    height: 70px;
+.content {
+    padding: 0 0.938rem;
     margin: 0 auto;
+    min-width: 37.5rem;
+}
+.top-navigation > .content {
+    height: 4.375rem;
+}
+.top-navigation .logo {
+    height: 4.375rem;
+}
+.top-navigation .links {
+    float: right;
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 1.563rem;
 }
 
 /* HTML5 display definitions
